@@ -10,7 +10,7 @@ Each project demonstrates skills in **low-level programming, memory management, 
 ### 1. Huffman File Compression System (separate repo)
 - **Description:** Implemented a lossless file compression/decompression utility using Huffman coding.  
 - **Key Skills:** Binary trees, priority queues, bit-level file I/O, memory management, Makefile, Valgrind.  
-- **Go to Repo:** [huffman-compression-c]([https://github.com/yourusername/Huffman-File-Compression-System](https://github.com/maybeJLorenz/C-Systems-Projects/tree/main/Huffman%20File%20Compression%20System))  
+- **Go to Repo:** [huffman-compression-c](https://github.com/maybeJLorenz/C-Systems-Projects/tree/main/Huffman%20File%20Compression%20System)  
 
 ---
 
