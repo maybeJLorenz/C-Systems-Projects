@@ -1,44 +1,32 @@
-# C Systems Programming Projects
+# Huffman File Compression System
 
-This repository is a collection of smaller **C programming projects** completed as part of my coursework in systems programming, data structures, and software engineering.  
-Each project demonstrates skills in **low-level programming, memory management, algorithms, and modular design**.  
+A lossless file compression and decompression utility implemented in **C** using **Huffman coding**.  
+This project demonstrates **low-level systems programming** with custom bit-level I/O, binary trees, and priority queues to efficiently encode and decode data.  
 
 ---
 
-## 📂 Projects Overview
-
-### 1. Huffman File Compression System (separate repo)
-- **Description:** Implemented a lossless file compression/decompression utility using Huffman coding.  
-- **Key Skills:** Binary trees, priority queues, bit-level file I/O, memory management, Makefile, Valgrind.  
-- **Repo:** [huffman-compression-c](https://github.com/yourusername/huffman-compression-c)  
-
-### 2. [Project Name]  
-- **Description:** (2–3 line summary of what the project does).  
-- **Key Skills:** e.g., pointers, dynamic memory allocation, recursion, unit testing.  
-
-### 3. [Project Name]  
-- **Description:** (2–3 line summary).  
-- **Key Skills:** e.g., linked lists, stacks/queues, modular design, error handling.  
-
-### 4. [Project Name]  
-- **Description:** (2–3 line summary).  
-- **Key Skills:** e.g., file I/O, string manipulation, algorithm implementation.  
+## 📖 Overview
+- **Compressor (`huff`)**: Reads a file, builds a frequency histogram, constructs a Huffman tree, and outputs a compressed binary file.  
+- **Decompressor (`dehuff`)**: Reads the compressed binary file, reconstructs the Huffman tree, and restores the original file.  
+- **Supporting Modules**:  
+  - `bitwriter.c / bitreader.c`: Custom bit-level I/O operations  
+  - `node.c`: Binary tree structure for code representation  
+  - `pq.c`: Priority queue for tree construction  
+- **Build System**: Makefile-based with unit tests and system tests.  
 
 ---
 
 ## 🛠️ Skills Demonstrated
-- **Languages & Tools:** C, Makefile, GCC/Clang, Valgrind, Linux CLI  
-- **Systems Programming:** Bit-level file I/O, memory management, pointers, error handling  
-- **Data Structures & Algorithms:** Binary trees, linked lists, stacks, queues, recursion, Huffman coding  
-- **Software Engineering:** Modular design, debugging, unit/system testing, static analysis (`scan-build`)  
+- **Programming & Tools:** C, Makefile, GCC/Clang, Valgrind, Linux CLI  
+- **Systems Programming:** Bit-level file I/O, memory management, error handling  
+- **Data Structures & Algorithms:** Binary trees, priority queues, recursion, Huffman coding algorithm  
+- **Software Engineering:** Modular design, unit/system testing, debugging, static analysis (`scan-build`)  
 
 ---
 
-## 🚀 How to Build & Run
-Clone the repository and build using `make`:
+## 🚀 Build & Run
 
+Clone the repository:
 ```bash
-git clone https://github.com/yourusername/c-systems-lab.git
-cd c-systems-lab/project-folder
-make
-./program-name
+git clone https://github.com/yourusername/huffman-compression-c.git
+cd huffman-compression-c
