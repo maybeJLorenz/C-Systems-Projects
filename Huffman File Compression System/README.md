@@ -1,4 +1,4 @@
-# Huffman File Compression System
+# Huffman File Compression System 💪 📂
 
 A lossless file compression and decompression utility implemented in **C** using **Huffman coding**.  
 This project demonstrates **low-level systems programming** with custom bit-level I/O, binary trees, and priority queues to efficiently encode and decode data.  
@@ -30,3 +30,4 @@ Clone the repository:
 ```bash
 git clone https://github.com/yourusername/huffman-compression-c.git
 cd huffman-compression-c
+
